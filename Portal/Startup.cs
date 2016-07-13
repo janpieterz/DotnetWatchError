@@ -12,6 +12,7 @@ using Microsoft.Extensions.Logging;
 using Portal.Data;
 using Portal.Models;
 using Portal.Services;
+using Services.Account;
 
 namespace Portal
 {
@@ -52,6 +53,7 @@ namespace Portal
             // Add application services.
             services.AddTransient<IEmailSender, AuthMessageSender>();
             services.AddTransient<ISmsSender, AuthMessageSender>();
+            services.AddTransient<AccountStorage, AccountStorage>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

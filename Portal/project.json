@@ -59,7 +59,13 @@
   },
 
   "frameworks": {
-    "net452": { }
+    "net451": {
+      "dependencies": {
+        "Services.Account": {
+          "target": "project"
+        }
+      }
+    }
   },
 
   "buildOptions": {

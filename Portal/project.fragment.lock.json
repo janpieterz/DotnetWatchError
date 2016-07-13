@@ -1,0 +1,39 @@
+{
+  "version": 2,
+  "exports": {
+    "Services.Account/1.0.0": {
+      "type": "project",
+      "framework": ".NETFramework,Version=v4.5",
+      "compile": {
+        "bin/Debug/Services.Account.dll": {}
+      },
+      "runtime": {
+        "bin/Debug/Services.Account.dll": {}
+      },
+      "contentFiles": {
+        "bin/Debug/Services.Account.pdb": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true
+        }
+      }
+    },
+    "Intreba.Azure.Storage/1.0.0": {
+      "type": "project",
+      "framework": ".NETFramework,Version=v4.5",
+      "compile": {
+        "bin/Debug/Intreba.Azure.Storage.dll": {}
+      },
+      "runtime": {
+        "bin/Debug/Intreba.Azure.Storage.dll": {}
+      },
+      "contentFiles": {
+        "bin/Debug/Intreba.Azure.Storage.pdb": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true
+        }
+      }
+    }
+  }
+}
